@@ -1,0 +1,16 @@
+{
+    "manifestVersion": 1,
+    "name": "Discord Notifications Power-Up",
+    "description": "Sends Trello notifications to a Discord server.",
+    "author": "Wikus",
+    "capabilities": {
+      "board-buttons": [
+        {
+          "text": "Enable Discord Notifications",
+          "callback": "showSettings"
+        }
+      ],
+      "webhooks": {}
+    }
+  }
+  
